@@ -6,6 +6,8 @@ import { Global, css } from "@emotion/react";
 const globalStyles = css`
 
   :root {
+    --color-primary: #2A255F;
+    --color-secondary: #3B376D;
     --color-primary-text: #FFFFFF;
 
   }
