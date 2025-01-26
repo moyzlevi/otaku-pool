@@ -8,7 +8,12 @@ const globalStyles = css`
   :root {
     --color-primary: #2A255F;
     --color-secondary: #3B376D;
+    
     --color-primary-text: #FFFFFF;
+    --color-primary-grey: #D9D9D9;
+
+    --shadow-light: 0 2rem 5rem rgba(0,0,0,.06);
+    --shadow-dark: 0 2rem 6rem rgba(0,0,0,.3);
 
   }
 
