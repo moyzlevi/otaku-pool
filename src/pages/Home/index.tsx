@@ -4,6 +4,7 @@ import { mockCards } from "../../components/card/cards-mock";
 import { css } from "@emotion/react";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
+import { useBackgroundBody } from "../../hooks/useBackgroundBody";
 
 const cardListStyle = css`
   margin: auto;
@@ -13,9 +14,13 @@ const cardListStyle = css`
   justify-content: space-between;
   position: relative;
   background-color: transparent;
+
+
 `;
 
 const Home: FC = () => {
+  useBackgroundBody("anime-bg")
+
   const cardList = mockCards.map((card) => (
     <Card
       title={card.title}
