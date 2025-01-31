@@ -1,6 +1,6 @@
 import { FC } from "react";
-import Button from "../../components/button";
-import Header from "../../components/header";
+import Button from "../../components/Button";
+import Header from "../../components/Header";
 import { css } from "@emotion/react";
 import { useBackgroundBody } from "../../hooks/useBackgroundBody";
 

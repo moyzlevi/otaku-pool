@@ -44,7 +44,7 @@ const globalStyles = css`
   }
 
   .colored-bg {
-    background-color: #FFFFFF;
+    background-color: #e6e6e6;
     background-image: none;
   }
 `;

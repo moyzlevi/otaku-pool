@@ -18,27 +18,7 @@ const cardStyle = css`
   display: flex;
   justify-content: end;
   flex-direction: column;
-  &:nth-child(-n + 3) {
-    top: -3rem;
-    &:hover {
-      transition: all 0.2s ease-out;
-      box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
-      top: -45px;
-      border: 1px solid #cccccc;
-      background-color: white;
-    }
-  }
-
-  &:nth-child(n + 4) {
-    &:hover {
-      transition: all 0.2s ease-out;
-      box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
-      top: 15px;
-      border: 1px solid #cccccc;
-      background-color: white;
-    }
-    top: 3rem;
-  }
+  
 `;
 
 const cardInfo = css`
